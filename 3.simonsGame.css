@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: rgb(218, 249, 202);
+  transition: background-color 1s ease;
+}
+.rrr {
+  margin: 0;
+  color: red;
+}
+.black {
+  color: black;
+}
+.whiteee {
+  color: white;
+}
+
+img {
+  width: 50px;
+  transition: width 0.6s ease;
+}
+.image2 {
+  width: 150px;
+  transition: width 0.6s ease;
+}
+.image {
+  display: none;
+}
+
+h2,
+h1 {
+  transition: transform 0.2s;
+  transform: scale(1);
+}
+.move2 {
+  transition: transform 0.2s ease;
+  transform: scale(1.1);
+}
+.move {
+  transition: transform 0.2s ease;
+  transform: scale(1.1);
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn {
+  width: min(12rem, 20vw);
+  height: min(12rem, 20vw);
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.red {
+  background-color: crimson;
+}
+.green {
+  background-color: springgreen;
+}
+.blue {
+  background-color: aqua;
+}
+.yellow {
+  background-color: yellow;
+}
+.white {
+  background-color: white;
+}
+.pink {
+  background-color: lightpink;
+}
+.btn-container {
+  caret-color: transparent;
+}
+.high-score {
+  opacity: 0;
+  font-size: 2rem;
+  font-family: arial;
+  font-weight: bolder;
+  position: absolute;
+  top: 0.1rem;
+  right: 3rem;
+}
+.changes {
+  opacity: 1;
+}
